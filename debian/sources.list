@@ -1,0 +1,4 @@
+deb http://mirrors.163.com/debian/ buster main contrib non-free
+deb http://mirrors.163.com/debian/ buster-updates main contrib non-free
+deb http://mirrors.163.com/debian/ buster-backports main contrib non-free
+deb http://mirrors.163.com/debian-security buster/updates main contrib non-free
