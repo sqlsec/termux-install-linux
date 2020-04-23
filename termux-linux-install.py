@@ -108,7 +108,7 @@ def install_debian():
     os.system(f'cp debian/sources.list $HOME/Termux-Linux/{osname}/{folder}/etc/apt/')
     os.system('screenfetch -A "Debian" -L')
     print('\n   Debian 安装成功')
-    print('\n    祝您使用愉快\n')
+    print('\n     祝您使用愉快\n')
 
 def uninstall_debian():
     print('\n正在卸载 Debian 请耐心等待')
