@@ -71,7 +71,7 @@ def install_kali():
     os.system(f'rm -rf {imagedir}')
     print('\n正在优化系统设置')
     os.system(f'mkdir -p $HOME/Termux-Linux/{osname}/binds')
-    os.system(f'cp debian/{shname} $HOME/Termux-Linux/{osname}/')
+    os.system(f'cp kali/{shname} $HOME/Termux-Linux/{osname}/')
     os.system(f'termux-fix-shebang $HOME/Termux-Linux/{osname}/{shname}')
     os.system(f'chmod +x $HOME/Termux-Linux/{osname}/{shname}')
     os.system(f'rm $HOME/Termux-Linux/{osname}/{folder}/etc/apt/sources.list')

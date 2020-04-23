@@ -27,3 +27,24 @@ python termux-linux-install.py
 
 ## Ubuntu
 
+安装成功后，可以直接这样启动：
+
+```bash
+cd ~/Termux-Linux/Ubuntu
+./start-ubuntu.sh
+```
+
+# Kali
+
+这个 Kali 是轻量级的，大家要安装完整的 Kali Nethunter 的话 ，可以参考我的 Termux 文章里面的操作细节: [Termux 高级终端安装使用配置教程: Kali NetHunter](https://www.sqlsec.com/2018/05/termux.html#toc-heading-112)
+
+```bash
+cd ~/Termux-Linux/Kali
+./start-kali.sh
+```
+
+
+
+# 总结
+
+本脚本不会经常更新，除非有重大使用问题，暂时不考虑增加新的操作系统了，也不考虑增加图形化桌面安装功能，随缘佛系更新。
