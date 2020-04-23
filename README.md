@@ -43,6 +43,13 @@ cd ~/Termux-Linux/Kali
 ./start-kali.sh
 ```
 
+# Debian
+
+```bash
+cd ~/Termux-Linux/Debian
+./start-debian.sh
+```
+
 
 
 # 总结

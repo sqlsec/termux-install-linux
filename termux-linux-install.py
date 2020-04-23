@@ -104,7 +104,7 @@ def install_debian():
     os.system(f'cp debian/{shname} $HOME/Termux-Linux/{osname}/')
     os.system(f'termux-fix-shebang $HOME/Termux-Linux/{osname}/{shname}')
     os.system(f'chmod +x $HOME/Termux-Linux/{osname}/{shname}')
-    os.system(f'rm $HOME/Termux-Linux/{osname}/07:39 PM{folder}/etc/apt/sources.list')
+    os.system(f'rm $HOME/Termux-Linux/{osname}/{folder}/etc/apt/sources.list')
     os.system(f'cp debian/sources.list $HOME/Termux-Linux/{osname}/{folder}/etc/apt/')
     os.system('screenfetch -A "Debian" -L')
     print('\n   Debian 安装成功')
